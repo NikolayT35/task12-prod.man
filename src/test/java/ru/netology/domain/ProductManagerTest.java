@@ -1,12 +1,9 @@
 package ru.netology.domain;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import ru.netology.repository.ProductRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.doReturn;
 
 class ProductManagerTest {
 
@@ -15,16 +12,15 @@ class ProductManagerTest {
     Book secondBook = new Book(2, "Rock", 500, "Keysi");
     Book thirdBook = new Book(3, "Space", 1000, "Nokia");
 
-   SmartPhone firstSmartPhone = new SmartPhone(4, "One", 100, "Honor");
+    SmartPhone firstSmartPhone = new SmartPhone(4, "One", 100, "Honor");
     SmartPhone secondSmartPhone = new SmartPhone(5, "Rock", 500, "Samsung");
     SmartPhone thirdSmartPhone = new SmartPhone(6, "Space", 1000, "Nokia");
 
 
     @Test
-
     void shouldFindByNameIfExists() {
-         ProductRepository repository = new ProductRepository();
-         repository.save(firstBook);
+        ProductRepository repository = new ProductRepository();
+        repository.save(firstBook);
         repository.save(secondBook);
         repository.save(thirdBook);
         repository.save(firstSmartPhone);
@@ -35,14 +31,12 @@ class ProductManagerTest {
 
         Product[] actual = manager.searchBy("One");
         Product[] expected = new Product[]{
-                firstBook,firstSmartPhone};
+                firstBook, firstSmartPhone};
 
         assertArrayEquals(expected, actual);
-
     }
 
     @Test
-
     void shouldFindIfExists() {
         ProductRepository repository = new ProductRepository();
         repository.save(firstBook);
@@ -56,14 +50,12 @@ class ProductManagerTest {
 
         Product[] actual = manager.searchBy("Nokia");
         Product[] expected = new Product[]{
-                thirdBook,thirdSmartPhone};
+                thirdBook, thirdSmartPhone};
 
         assertArrayEquals(expected, actual);
-
     }
 
     @Test
-
     void shouldNotFindIfNotExists() {
         ProductRepository repository = new ProductRepository();
         repository.save(firstBook);
@@ -79,12 +71,11 @@ class ProductManagerTest {
         Product[] expected = new Product[0];
 
         assertArrayEquals(expected, actual);
-
     }
-    @Test
 
+    @Test
     void shouldNotFindIfUnknownProduct() {
-        Product product= new Product(6, "Space2", 1000);
+        Product product = new Product(6, "Space2", 1000);
 
         ProductRepository repository = new ProductRepository();
         repository.save(product);

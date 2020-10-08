@@ -2,53 +2,51 @@
 
 import ru.netology.repository.ProductRepository;
 
-import java.util.Objects;
-
 public class ProductManager {
-        ProductRepository repository;
+    ProductRepository repository;
 
-<span class="fc" id="L10">        public ProductManager(ProductRepository repository) {</span>
-<span class="fc" id="L11">              this.repository =  repository;</span>
-<span class="fc" id="L12">        }</span>
+<span class="fc" id="L8">    public ProductManager(ProductRepository repository) {</span>
+<span class="fc" id="L9">        this.repository = repository;</span>
+<span class="fc" id="L10">    }</span>
 
-        public Product[] searchBy(String text) {
-<span class="fc" id="L15">                Product[] result = new Product[0];</span>
-<span class="fc bfc" id="L16" title="All 2 branches covered.">                for (Product product : repository.findAll()) {</span>
-<span class="fc bfc" id="L17" title="All 2 branches covered.">                        if (matches(product, text)) {</span>
-<span class="fc" id="L18">                                Product[] tmp = new Product[result.length + 1];</span>
-<span class="fc" id="L19">                                System.arraycopy(result, 0, tmp, 0, result.length);</span>
-<span class="fc" id="L20">                                tmp[tmp.length - 1] = product;</span>
-<span class="fc" id="L21">                                result = tmp;</span>
-                        }
-                }
-<span class="fc" id="L24">                return result;</span>
+    public Product[] searchBy(String text) {
+<span class="fc" id="L13">        Product[] result = new Product[0];</span>
+<span class="fc bfc" id="L14" title="All 2 branches covered.">        for (Product product : repository.findAll()) {</span>
+<span class="fc bfc" id="L15" title="All 2 branches covered.">            if (matches(product, text)) {</span>
+<span class="fc" id="L16">                Product[] tmp = new Product[result.length + 1];</span>
+<span class="fc" id="L17">                System.arraycopy(result, 0, tmp, 0, result.length);</span>
+<span class="fc" id="L18">                tmp[tmp.length - 1] = product;</span>
+<span class="fc" id="L19">                result = tmp;</span>
+            }
+        }
+<span class="fc" id="L22">        return result;</span>
+    }
+
+    public boolean matches(Product product, String search) {
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        if (product instanceof Book) {</span>
+<span class="fc" id="L27">            Book book = (Book) product;</span>
+<span class="fc bfc" id="L28" title="All 2 branches covered.">            if (book.getName().equalsIgnoreCase(search)) {</span>
+<span class="fc" id="L29">                return true;</span>
+            }
+<span class="fc bfc" id="L31" title="All 2 branches covered.">            if (book.getAuthor().equalsIgnoreCase(search)) {</span>
+<span class="fc" id="L32">                return true;</span>
+            }
+<span class="fc" id="L34">            return false;</span>
         }
 
-        public boolean matches(Product product, String search) {
-<span class="fc bfc" id="L28" title="All 2 branches covered.">                if (product instanceof Book) {</span>
-<span class="fc" id="L29">                        Book book = (Book) product;</span>
-<span class="fc bfc" id="L30" title="All 2 branches covered.">                        if (book.getName().equalsIgnoreCase(search)) {</span>
-<span class="fc" id="L31">                                return true;</span>
-                        }
-<span class="fc bfc" id="L33" title="All 2 branches covered.">                        if (book.getAuthor().equalsIgnoreCase(search)) {</span>
-<span class="fc" id="L34">                                return true;</span>
-                        }
-<span class="fc" id="L36">                        return false;</span>
-                }
+<span class="fc bfc" id="L37" title="All 2 branches covered.">        if (product instanceof SmartPhone) {</span>
+<span class="fc" id="L38">            SmartPhone smartPhone = (SmartPhone) product;</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">            if (smartPhone.getName().equalsIgnoreCase(search)) {</span>
+<span class="fc" id="L40">                return true;</span>
+            }
+<span class="fc bfc" id="L42" title="All 2 branches covered.">            if (smartPhone.getProducer().equalsIgnoreCase(search)) {</span>
+<span class="fc" id="L43">                return true;</span>
+            }
 
-<span class="fc bfc" id="L39" title="All 2 branches covered.">                if (product instanceof SmartPhone) {</span>
-<span class="fc" id="L40">                        SmartPhone smartPhone = (SmartPhone) product;</span>
-<span class="fc bfc" id="L41" title="All 2 branches covered.">                        if (smartPhone.getName().equalsIgnoreCase(search)) {</span>
-<span class="fc" id="L42">                                return true;</span>
-                        }
-<span class="fc bfc" id="L44" title="All 2 branches covered.">                        if (smartPhone.getProducer().equalsIgnoreCase(search)) {</span>
-<span class="fc" id="L45">                                return true;</span>
-                        }
-
-<span class="fc" id="L48">                        return false;</span>
-                }
-<span class="fc" id="L50">                return false;</span>
+<span class="fc" id="L46">            return false;</span>
         }
+<span class="fc" id="L48">        return false;</span>
+    }
 }
 
 
