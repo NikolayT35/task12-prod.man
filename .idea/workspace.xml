@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="028bb431-4fbd-451d-92af-1069ec0a9125" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/SmartPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ProductManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ProductManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/SmartPhoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/SmartPhoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/repository/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/domain/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/domain/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/domain/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/domain/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/domain/SmartPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/domain/SmartPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/Book.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/Book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/Book.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/Book.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/Product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/Product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/Product.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/Product.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/ProductManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/ProductManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/ProductManager.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/ProductManager.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/SmartPhone.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/SmartPhone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/SmartPhone.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/SmartPhone.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.domain/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ru.netology.repository/ProductRepository.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ru.netology.repository/ProductRepository.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.BookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.BookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.ProductManagerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.ProductManagerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.ProductTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.domain.ProductTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.repository.ProductRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.repository.ProductRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.BookTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.BookTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.ProductManagerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.ProductManagerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.ProductTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.domain.ProductTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.repository.ProductRepositoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.repository.ProductRepositoryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/task12-prod.man-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/task12-prod.man-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/BookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ProductManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ProductManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/SmartPhoneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/SmartPhoneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/repository/ProductRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/repository/ProductRepositoryTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Nikolay Touraev\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\202.6397.94\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iP5OVmM1ACOlAPeNus5kcyruyp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.netology.domain" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.netology.repository" />
+      <recent name="ru.netology" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="K:\testing\Java\task12-prod.man\src\main\java\ru\netology\domain" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean -B -e verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductManagerTest.shouldFindIfExists">
+    <configuration name="ProductManagerTest.shouldFindByAuthorIfExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task12-prod.man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ProductManagerTest" />
+      <option name="METHOD_NAME" value="shouldFindByAuthorIfExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductManagerTest.shouldFindByIDIfExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task12-prod.man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ProductManagerTest" />
+      <option name="METHOD_NAME" value="shouldFindByIDIfExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductManagerTest.shouldFindByNameIfExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task12-prod.man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ProductManagerTest" />
+      <option name="METHOD_NAME" value="shouldFindByNameIfExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductManagerTest.shouldFindByProducerIfExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task12-prod.man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ProductManagerTest" />
+      <option name="METHOD_NAME" value="shouldFindByProducerIfExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductManagerTest.shouldFindIfExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task12-prod.man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ProductManagerTest" />
+      <option name="METHOD_NAME" value="shouldFindIfExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductManagerTest.shouldFindIfExists" />
+        <item itemvalue="JUnit.ProductManagerTest.shouldFindByProducerIfExists" />
+        <item itemvalue="JUnit.ProductManagerTest.shouldFindByAuthorIfExists" />
+        <item itemvalue="JUnit.ProductManagerTest.shouldFindByIDIfExists" />
+        <item itemvalue="JUnit.ProductManagerTest.shouldFindByNameIfExists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="028bb431-4fbd-451d-92af-1069ec0a9125" name="Default Changelist" comment="" />
+      <created>1601796356456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601796356456</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2045" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1602162976108">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state x="510" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602091839800" />
+    <state x="2045" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1602162976108" />
+    <state x="1943" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601798080500">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1943" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1601798080500" />
+    <state x="2023" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602084868704">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2023" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1602084868704" />
+    <state x="2036" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1601798081735">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2036" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1601798081735" />
+    <state width="1237" height="195" key="GridCell.Tab.0.bottom" timestamp="1602360391693">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="195" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602360391693" />
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1602163123509" />
+    <state width="1237" height="195" key="GridCell.Tab.0.center" timestamp="1602360391693">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="195" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602360391693" />
+    <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1602163123509" />
+    <state width="1237" height="195" key="GridCell.Tab.0.left" timestamp="1602360391693">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="195" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602360391693" />
+    <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1602163123509" />
+    <state width="1237" height="195" key="GridCell.Tab.0.right" timestamp="1602360391693">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="195" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602360391693" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1602163123509" />
+    <state width="1232" height="324" key="GridCell.Tab.1.bottom" timestamp="1602095967961">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1232" height="324" key="GridCell.Tab.1.bottom/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602095967961" />
+    <state width="1232" height="324" key="GridCell.Tab.1.center" timestamp="1602095967961">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1232" height="324" key="GridCell.Tab.1.center/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602095967961" />
+    <state width="1232" height="324" key="GridCell.Tab.1.left" timestamp="1602095967961">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1232" height="324" key="GridCell.Tab.1.left/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602095967961" />
+    <state width="1232" height="324" key="GridCell.Tab.1.right" timestamp="1602095967961">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1232" height="324" key="GridCell.Tab.1.right/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602095967961" />
+    <state x="141" y="137" key="SettingsEditor" timestamp="1602351605790">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="141" y="137" key="SettingsEditor/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602351605790" />
+    <state x="410" y="306" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602094361189">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="410" y="306" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602094361189" />
+    <state x="295" y="231" width="672" height="677" key="run.anything.popup" timestamp="1602360391676">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="295" y="231" width="672" height="677" key="run.anything.popup/0.0.1280.984/1280.0.1920.1040@0.0.1280.984" timestamp="1602360391676" />
+  </component>
+</project>
